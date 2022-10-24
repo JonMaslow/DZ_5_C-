@@ -42,7 +42,7 @@ int GetEvenNumber(int [] array)
     return count;
 }
 
-int length = GetNumber("Введите длинну массива: ");
+int length = GetNumber("Введите длину массива: ");
 int [] arrayRandom = InitRandomArray(length);
 PrintArray(arrayRandom);
 int number = GetEvenNumber(arrayRandom);
